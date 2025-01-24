@@ -1,0 +1,12 @@
+{
+  "name": "mata-mosquito",
+  "version": "1.0.0",
+  "description": "My Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^latest_version"
+  }
+}
