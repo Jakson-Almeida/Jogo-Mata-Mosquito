@@ -1,3 +1,7 @@
 # Jogo Mata Mosquito
 
-Tecnologias Web
+Tecnologias Web usadas:
+
+- HTML;
+- CSS;
+- JavaScript.
