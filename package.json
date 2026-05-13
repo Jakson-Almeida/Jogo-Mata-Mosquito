@@ -1,12 +1,18 @@
 {
-  "name": "mata-mosquito",
-  "version": "1.0.0",
-  "description": "My Electron App",
-  "main": "main.js",
+  "name": "jogo-mata-mosquito",
+  "private": true,
+  "description": "Jogo Mata Mosquito — React + Node",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
-    "start": "electron ."
+    "dev": "concurrently -n client,server -c green,cyan \"npm run dev -w client\" \"npm run dev -w server\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "preview": "npm run preview -w client"
   },
-  "dependencies": {
-    "electron": "^latest_version"
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
