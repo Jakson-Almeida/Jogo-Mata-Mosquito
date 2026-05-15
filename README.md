@@ -42,3 +42,5 @@ git checkout old
 - **Jogabilidade:** pontuação, combo por acertos seguidos, pausa (Espaço ou P), rondas com duração e ritmo por nível, reinício sem recarregar a página.
 - **UI:** tema escuro, cartões de nível, HUD com vidro, animações no mosquito e feedback visual ao acerto.
 - **Backend:** API simples para registo opcional de pontuações (`POST /api/scores`).
+
+Nota: precisa de melhorias.
